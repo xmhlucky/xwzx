@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<link rel="stylesheet" href="css/bootstrap.css" />-->
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/soillist.css" />
+	</head>
+
+	<body>
+		<!--面包屑导航-->
+		<div class="crumbsnav">
+			<div class="wrapper">
+				<a href="#">首页</a>
+				<span>></span>
+				<a href="#">我要找土地</a>
+			</div>
+		</div>
+		<!--筛选条件-->
+		<div class="filtercondition">
+			<div class="wrapper">
+				<div class="filterbox">
+					<div class="filtertitle clearfix">
+						<div class="fl left">
+							筛选土地条件
+						</div>
+						<div class="fr searchinput">
+							<input type="text" placeholder="输入搜索内容   例如：林场    山地" />
+							<i class="iconfont">&#xe62a;</i>
+							<div class="line">
+							</div>
+						</div>
+					</div>
+					<div class="filtersort">
+						<div class="clearfix filtergroup">
+							<div class="fl sorttitle">
+								地区
+							</div>
+							<div class="fl sortdetail">
+								<a href="#">全部</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+								<a href="#">北京</a>
+							</div>
+						</div>
+						<div class="clearfix filtergroup">
+							<div class="fl sorttitle">
+								用途
+							</div>
+							<div class="fl sortdetail">
+								<a href="#">全部</a>
+								<a href="#">耕地</a>
+								<a href="#">林地</a>
+								<a href="#">林地</a>
+								<a href="#">林地</a>
+								<a href="#">林地</a>
+								<a href="#">林地</a>
+								<a href="#">林地</a>
+								<a href="#">林地</a>
+								<a href="#">林地</a>
+							</div>
+						</div>
+						<div class="clearfix filtergroup">
+							<div class="fl sorttitle">
+								标签
+							</div>
+							<div class="fl sortdetail">
+								<a href="#">全部</a>
+								<a href="#">水果坚果</a>
+								<a href="#">粮油用地</a>
+
+								<a href="#">其他</a>
+							</div>
+						</div>
+						<div class="clearfix filtergroup">
+							<div class="fl sorttitle">
+								租赁形式
+							</div>
+							<div class="fl sortdetail">
+								<a href="#">全部</a>
+								<a href="#">水果坚果</a>
+								<a href="#">粮油用地</a>
+
+								<a href="#">其他</a>
+							</div>
+						</div>
+						<div class="clearfix filtergroup">
+							<div class="fl sorttitle">
+								其他
+							</div>
+							<div class="fl sortdetail">
+								<select name="">
+									<option value="">面积</option>
+									<option value="">面积浮动</option>
+									<option value="">面积是</option>
+									<option value="">面积</option>
+									<option value="">面积</option>
+									<option value="">面积</option>
+								</select>
+								<select name="">
+									<option value="">可流转年限</option>
+									<option value="">面积浮动</option>
+									<option value="">面积是</option>
+									<option value="">面积</option>
+									<option value="">面积</option>
+									<option value="">面积</option>
+								</select>
+								<select name="">
+									<option value="">交易情况</option>
+									<option value="">面积浮动</option>
+									<option value="">面积是</option>
+									<option value="">面积</option>
+									<option value="">面积</option>
+									<option value="">面积</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix filtergroup filtergroupchoose">
+					<div class="fl sorttitle">
+						筛选
+					</div>
+					<div class="fl sortdetail">
+						<a class="filterchoose" href="#">
+							北京
+							<span>|</span>
+							<i class="iconfont">&#xe619;</i>
+						</a>
+						<a class="filterchoose" href="#">
+							北京
+							<span>|</span>
+							<i class="iconfont">&#xe619;</i>
+						</a>
+						<a class="filterchoose" href="#">
+							北京
+							<span>|</span>
+							<i class="iconfont">&#xe619;</i>
+						</a>
+						<a class="filterchoose" href="#">
+							北京
+							<span>|</span>
+							<i class="iconfont">&#xe619;</i>
+						</a>
+						<p class="clear">
+							清空
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--二级筛选条件-->
+		<div class="filterresult">
+			<div class="wrapper clearfix">
+				<div class="left fl">
+					<div class="filteragain">
+						<div class="fl">
+							<a href="#" class="active">最新 <i class="iconfont">&#xe603;</i></a>							
+							<a href="#">按面积 <i class="iconfont">&#xe603;</i></a>
+							<a href="#">按可流转年限 <i class="iconfont">&#xe603;</i></a>
+							<a href="#">按价格 <i class="iconfont">&#xe603;</i></a>
+						</div>
+						<div class="fr">
+							为您筛选<span class="colormain">1000</span>块地
+						</div>
+					</div>
+					<!--筛选内容-->
+					<!--此处有24个图片-->
+					<div class="filtercontent">
+						<a href="#" class="filtercontentbox animatebox">
+							<div class="img">
+								<img src="images/17.png" alt="" />
+							</div>
+							<div class="contentdetail">
+								<p class="title">丰台30亩农业用地</p>
+								<p class="clearfix agelimit"><span class="fl">转让</span><span class="fl">十年</span></p>
+								<p class="clearfix price">
+									<span class="fr colormain">100 <i>元</i></span>
+								</p>
+								<div class="clearfix type">
+									<p class="fl">
+										<span>耕地</span>
+										<i>|</i>
+										<span>水浇地</span>
+									</p>
+									<p class="fr">
+										<i class="iconfont">&#xe61a;</i>
+										<span class="area">100亩</span>
+									</p>
+								</div>
+								<p class="time fr"><i class="iconfont">&#xe632;</i><span>发布时间：2017-08-09</span><span> 15:56:00</span></p>
+							</div>
+						</a>
+						<a href="#" class="filtercontentbox animatebox">
+							<div class="img">
+								<img src="images/17.png" alt="" />
+							</div>
+							<div class="contentdetail">
+								<p class="title">丰台30亩农业用地</p>
+								<p class="clearfix agelimit"><span class="fl">转让</span><span class="fl">十年</span></p>
+								<p class="clearfix price">
+									<span class="fr colormain">100 <i>元</i></span>
+								</p>
+								<div class="clearfix type">
+									<p class="fl">
+										<span>耕地</span>
+										<i>|</i>
+										<span>水浇地</span>
+									</p>
+									<p class="fr">
+										<i class="iconfont">&#xe61a;</i>
+										<span class="area">100亩</span>
+									</p>
+								</div>
+								<p class="time fr"><i class="iconfont">&#xe632;</i><span>发布时间：2017-08-09</span><span> 15:56:00</span></p>
+							</div>
+						</a>
+						<a href="#" class="filtercontentbox animatebox">
+							<div class="img">
+								<img src="images/17.png" alt="" />
+							</div>
+							<div class="contentdetail">
+								<p class="title">丰台30亩农业用地</p>
+								<p class="clearfix agelimit"><span class="fl">转让</span><span class="fl">十年</span></p>
+								<p class="clearfix price">
+									<span class="fr colormain">100 <i>元</i></span>
+								</p>
+								<div class="clearfix type">
+									<p class="fl">
+										<span>耕地</span>
+										<i>|</i>
+										<span>水浇地</span>
+									</p>
+									<p class="fr">
+										<i class="iconfont">&#xe61a;</i>
+										<span class="area">100亩</span>
+									</p>
+								</div>
+								<p class="time fr"><i class="iconfont">&#xe632;</i><span>发布时间：2017-08-09</span><span> 15:56:00</span></p>
+							</div>
+						</a>
+						<a href="#" class="filtercontentbox animatebox">
+							<div class="img">
+								<img src="images/17.png" alt="" />
+							</div>
+							<div class="contentdetail">
+								<p class="title">丰台30亩农业用地</p>
+								<p class="clearfix agelimit"><span class="fl">转让</span><span class="fl">十年</span></p>
+								<p class="clearfix price">
+									<span class="fr colormain">100 <i>元</i></span>
+								</p>
+								<div class="clearfix type">
+									<p class="fl">
+										<span>耕地</span>
+										<i>|</i>
+										<span>水浇地</span>
+									</p>
+									<p class="fr">
+										<i class="iconfont">&#xe61a;</i>
+										<span class="area">100亩</span>
+									</p>
+								</div>
+								<p class="time fr"><i class="iconfont">&#xe632;</i><span>发布时间：2017-08-09</span><span> 15:56:00</span></p>
+							</div>
+						</a>
+						<a href="#" class="filtercontentbox animatebox">
+							<div class="img">
+								<img src="images/17.png" alt="" />
+							</div>
+							<div class="contentdetail">
+								<p class="title">丰台30亩农业用地</p>
+								<p class="clearfix agelimit"><span class="fl">转让</span><span class="fl">十年</span></p>
+								<p class="clearfix price">
+									<span class="fr colormain">100 <i>元</i></span>
+								</p>
+								<div class="clearfix type">
+									<p class="fl">
+										<span>耕地</span>
+										<i>|</i>
+										<span>水浇地</span>
+									</p>
+									<p class="fr">
+										<i class="iconfont">&#xe61a;</i>
+										<span class="area">100亩</span>
+									</p>
+								</div>
+								<p class="time fr"><i class="iconfont">&#xe632;</i><span>发布时间：2017-08-09</span><span> 15:56:00</span></p>
+							</div>
+						</a>
+						<a href="#" class="filtercontentbox animatebox">
+							<div class="img">
+								<img src="images/17.png" alt="" />
+							</div>
+							<div class="contentdetail">
+								<p class="title">丰台30亩农业用地</p>
+								<p class="clearfix agelimit"><span class="fl">转让</span><span class="fl">十年</span></p>
+								<p class="clearfix price">
+									<span class="fr colormain">100 <i>元</i></span>
+								</p>
+								<div class="clearfix type">
+									<p class="fl">
+										<span>耕地</span>
+										<i>|</i>
+										<span>水浇地</span>
+									</p>
+									<p class="fr">
+										<i class="iconfont">&#xe61a;</i>
+										<span class="area">100亩</span>
+									</p>
+								</div>
+								<p class="time fr"><i class="iconfont">&#xe632;</i><span>发布时间：2017-08-09</span><span> 15:56:00</span></p>
+							</div>
+						</a>
+					</div>
+
+					<div class="page clearfix">
+						<div class="clearfix fl">
+							<a href="#">&lt;</a>
+							<a href="#">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="javascript:;">...</a>
+							<a href="#">50</a>
+							<a href="#">&gt;</a>
+							<span>调至</span>
+							<input type="text" />
+							<span>页</span>
+						</div>
+					</div>
+				</div>
+				<div class="right fr">
+					<a href="#" class="newslist animatebox">
+						<div class="img">
+							<img src="images/18.png" alt="" />
+						</div>
+						<div class="newsdetail">
+							<h3>现代农场经营管理特训营</h3>
+							<p>
+								<i class="iconfont">&#xe600;</i> 农业管理科学培训、农业知dasaasasfdf
+							</p>
+						</div>
+					</a>
+					<a href="#" class="newslist animatebox">
+						<div class="img">
+							<img src="images/18.png" alt="" />
+						</div>
+						<div class="newsdetail">
+							<h3>现代农场经营管理特训营</h3>
+							<p>
+								<i class="iconfont">&#xe600;</i> 农业管理科学培训、农业知dasaasasfdf
+							</p>
+						</div>
+					</a>
+					<a href="#" class="newslist animatebox">
+						<div class="img">
+							<img src="images/18.png" alt="" />
+						</div>
+						<div class="newsdetail">
+							<h3>现代农场经营管理特训营</h3>
+							<p>
+								<i class="iconfont">&#xe600;</i> 农业管理科学培训、农业知dasaasasfdf
+							</p>
+						</div>
+					</a>
+					<a href="#" class="newslist animatebox">
+						<div class="img">
+							<img src="images/18.png" alt="" />
+						</div>
+						<div class="newsdetail">
+							<h3>现代农场经营管理特训营</h3>
+							<p>
+								<i class="iconfont">&#xe600;</i> 农业管理科学培训、农业知dasaasasfdf
+							</p>
+						</div>
+					</a>
+
+				</div>
+			</div>
+		</div>
+		<!--历史记录-->
+		<div class="history">
+			<div class="wrapper">
+				<div class="historytitle">
+					<p>历史浏览</p>
+				</div>
+				<div class="historyrecord">
+					<ul class="clearfix">
+						<li>
+							<a href="#" class="historylist  animatebox">
+								<div class="img">
+									<img src="images/17.png" alt="" />
+								</div>
+								<div class="contentdetail">
+									<div class="titleleft clearfix">
+										<p class="title fl clearfix"><span class="fl">广东耕地</span><span class="fl">100亩</span></p>
+										<p class="fr titleright"><i>100</i>万/10年</p>
+									</div>
+									<p class="type">
+										水浇地
+									</p>
+								</div> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="historylist  animatebox">
+								<div class="img">
+									<img src="images/17.png" alt="" />
+								</div>
+								<div class="contentdetail">
+									<div class="titleleft clearfix">
+										<p class="title fl clearfix"><span class="fl">广东耕地</span><span class="fl">100亩</span></p>
+										<p class="fr titleright"><i>100</i>万/10年</p>
+									</div>
+									<p class="type">
+										水浇地
+									</p>
+								</div> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="historylist  animatebox">
+								<div class="img">
+									<img src="images/17.png" alt="" />
+								</div>
+								<div class="contentdetail">
+									<div class="titleleft clearfix">
+										<p class="title fl clearfix"><span class="fl">广东耕地</span><span class="fl">100亩</span></p>
+										<p class="fr titleright"><i>100</i>万/10年</p>
+									</div>
+									<p class="type">
+										水浇地
+									</p>
+								</div> 
+							</a>
+						</li>
+						<li>
+							<a href="#" class="historylist animatebox">
+								<div class="img">
+									<img src="images/17.png" alt="" />
+								</div>
+								<div class="contentdetail">
+									<div class="titleleft clearfix">
+										<p class="title fl clearfix"><span class="fl">广东耕地</span><span class="fl">100亩</span></p>
+										<p class="fr titleright"><i>100</i>万/10年</p>
+									</div>
+									<p class="type">
+										水浇地
+									</p>
+								</div> 
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="nearrecommend wrap_box">
+			<div class="wrapper">
+				<div class="hotmodule">
+					<h3>热门同地区土地信息</h3>
+					<div class="hotarea">
+						<a href="#">全国耕地</a>
+						<a href="#">全国林地</a>
+						<a href="#">全国园地</a>
+						<a href="#">全国草地</a>
+						<a href="#">全国水域</a>
+						<a href="#">全国其他用地</a>
+					</div>
+				</div>	
+				<div class="hotmodule">
+					<h3>同地区租赁类型</h3>
+					<div  class="hotarea">
+						<a href="#">全国土地转包 </a>
+						<a href="#">全国土地合作</a>
+						<a href="#">全国地转让</a>
+						<a href="#">全国土地转让</a>
+						<a href="#">全国土地转让</a>
+						<a href="#">全国土地入股</a>
+					</div>
+				</div>
+				<div class="hotmodule">
+					<h3>热门地区土地信息</h3>
+					<div class="hotarea">
+						<a href="#">北京土地 </a>
+						<a href="#">天津土地</a>
+						<a href="#">河北土地</a>
+						<a href="#">山西土地</a>
+						<a href="#">内蒙古土地</a>
+						<a href="#">北京土地 </a>
+						<a href="#">天津土地</a>
+						<a href="#">河北土地</a>
+						<a href="#">山西土地</a>
+						<a href="#">内蒙古土地</a>
+						<a href="#">北京土地 </a>
+						<a href="#">天津土地</a>
+						<a href="#">河北土地</a>
+						<a href="#">山西土地</a>
+						<a href="#">内蒙古土地</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

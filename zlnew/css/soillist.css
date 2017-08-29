@@ -1,0 +1,437 @@
+.crumbsnav {
+  border-top: 1px solid #efefef;
+  line-height: 46px;
+}
+.crumbsnav a {
+  color: #a9a9a9;
+}
+.crumbsnav a:hover {
+  color: #ff9d1f;
+  text-decoration: none;
+}
+.crumbsnav span {
+  color: #A9A9A9;
+}
+.filtercondition .container {
+  padding: 0;
+}
+.filtercondition .filterbox {
+  border: 1px solid #a9a9a9;
+  padding: 0;
+  padding-bottom: 10px;
+}
+.filtercondition .filtertitle {
+  border-bottom: 1px dashed #dddddd;
+}
+.filtercondition .filtertitle .left {
+  line-height: 76px;
+  font-size: 18px;
+  color: #ff9d1f;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.filtercondition .filtertitle .searchinput {
+  padding-right: 20px;
+  position: relative;
+  margin: 15px 0;
+}
+.filtercondition .filtertitle .searchinput input {
+  width: 430px;
+  line-height: 38px;
+  text-indent: 10px;
+}
+.filtercondition .filtertitle .searchinput .iconfont {
+  position: absolute;
+  font-size: 30px;
+  right: 20px;
+  top: 5px;
+  width: 60px;
+  text-align: center;
+}
+.filtercondition .filtertitle .searchinput .line {
+  position: absolute;
+  right: 80px;
+  width: 1px;
+  height: 26px;
+  top: 8px;
+  background: #dddddd;
+}
+.filtercondition .filtergroup {
+  line-height: 40px;
+  padding-top: 10px;
+}
+.filtercondition .sorttitle {
+  margin-right: 20px;
+  width: 70px;
+  text-align: right;
+  font-weight: bold;
+}
+.filtercondition .sortdetail {
+  width: 1080px;
+}
+.filtercondition .sortdetail a {
+  padding-right: 30px;
+  color: #333;
+}
+.filtercondition .sortdetail a:hover {
+  color: #ff9d1f;
+  text-decoration: none;
+}
+.filtercondition .sortdetail select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  position: relative;
+  outline: none;
+  line-height: 22px;
+  margin-right: 15px;
+  padding: 0 20px 0 10px;
+  border: 1px solid #dddddd;
+  border-radius: 2px;
+  background: url(../images/arrow.png) no-repeat right center transparent;
+}
+.filtercondition .filtergroupchoose {
+  padding: 10px 0;
+  border: 1px solid #a9a9a9;
+  border-top: 0;
+}
+.filtercondition .filtergroupchoose .filterchoose {
+  cursor: pointer;
+  line-height: 14px;
+  padding: 8px 20px 8px 10px;
+  border: 1px solid #e7e7e7;
+  float: left;
+  position: relative;
+  margin-top: 8px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+.filtercondition .filtergroupchoose .filterchoose span {
+  color: #e7e7e7;
+}
+.filtercondition .filtergroupchoose .filterchoose .iconfont {
+  color: #ddd;
+  font-size: 20px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+.filtercondition .filtergroupchoose .filterchoose:hover {
+  border-color: #ff9d1f;
+  color: #ff9d1f;
+  text-decoration: none;
+}
+.filtercondition .filtergroupchoose .filterchoose:hover .iconfont {
+  color: #ff9d1f;
+}
+.filtercondition .clear {
+  padding: 0 15px;
+  border: 1px solid #ff9d1f;
+  float: left;
+  line-height: 30px;
+  margin-top: 8px;
+  color: #ff9d1f;
+  cursor: pointer;
+}
+.filtercondition .clear:hover {
+  background: #ff9d1f;
+  color: #ffffff;
+}
+.filterresult {
+  margin-top: 40px;
+}
+.filterresult .container {
+  padding: 0;
+}
+.filterresult .left {
+  width: 956px;
+}
+.filterresult .filteragain {
+  background: #f7f7f7;
+  height: 40px;
+  border: 1px solid #dddddd;
+  margin-bottom: 20px;
+}
+.filterresult .filteragain a {
+  padding: 0 40px 0 15px;
+  display: block;
+  float: left;
+  line-height: 30px;
+  border-right: 1px solid #dddddd;
+  margin-top: 5px;
+  color: #333333;
+  position: relative;
+  text-decoration: none;
+}
+.filterresult .filteragain a .iconfont {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  font-size: 26px;
+}
+.filterresult .filteragain a:hover {
+  color: #ff9d1f;
+  text-decoration: none;
+}
+.filterresult .filteragain .active {
+  color: #ff9d1f;
+}
+.filterresult .filteragain .active .iconfont {
+  transform: rotate(180deg);
+}
+.filterresult .filteragain .fr {
+  line-height: 40px;
+  padding-right: 20px;
+}
+.filterresult .filtercontent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.filterresult .page {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+.filterresult .page a {
+  float: left;
+  padding: 0 10px;
+  text-align: center;
+  line-height: 32px;
+  border: 1px solid #dddddd;
+  margin-right: 10px;
+  color: #999999;
+}
+.filterresult .page a:hover {
+  color: #ff9d1f;
+  border-color: #ff9d1f;
+}
+.filterresult .page span {
+  line-height: 32px;
+  color: #999999;
+}
+.filterresult .page input {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #dddddd;
+  text-indent: 5px;
+}
+.filterresult .page input:focus {
+  border-color: #ff9d1f;
+}
+.filterresult .right .newslist {
+  width: 220px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  display: block;
+  color: #333333;
+}
+.filterresult .right .newslist .img {
+  height: 160px;
+}
+.filterresult .right .newslist .newsdetail h3 {
+  padding: 0 10px;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.filterresult .right .newslist .newsdetail p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  padding: 10px;
+}
+.filterresult .right .newslist .newsdetail p i {
+  padding-right: 3px;
+}
+.filterresult .right .newslist:hover .newsdetail h3 {
+  color: #ff9d1f;
+}
+.filtercontentbox {
+  width: 306px;
+  border: 1px solid #dddddd;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  display: block;
+  color: #333333;
+  float: left;
+}
+.filtercontentbox .img {
+  width: 306px;
+  height: 225px;
+}
+.filtercontentbox .contentdetail {
+  padding: 0 15px;
+}
+.filtercontentbox .contentdetail .title {
+  line-height: 40px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.filtercontentbox .contentdetail .agelimit span {
+  padding: 2px 10px;
+}
+.filtercontentbox .contentdetail .agelimit span:first-child {
+  background: #ff9d1f;
+  color: #ffffff;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.filtercontentbox .contentdetail .agelimit span:last-child {
+  color: #ff9d1f;
+  border-radius: 3px;
+  border: 1px solid #ff9d1f;
+}
+.filtercontentbox .contentdetail .price span {
+  font-size: 30px;
+  font-weight: bold;
+}
+.filtercontentbox .contentdetail .price span i {
+  font-size: 14px;
+}
+.filtercontentbox .contentdetail .type,
+.filtercontentbox .contentdetail .time {
+  line-height: 24px;
+}
+.filtercontentbox .contentdetail .type .area {
+  font-size: 12px;
+  color: #999999;
+}
+.filtercontentbox .contentdetail .time {
+  font-size: 12px;
+  color: #999999;
+  position: relative;
+  padding-bottom: 5px;
+}
+.filtercontentbox .contentdetail .time span {
+  padding-left: 10px;
+}
+.filtercontentbox .contentdetail .time i {
+  font-size: 24px;
+  line-height: 24px;
+  position: absolute;
+  left: -20px;
+  top: 0;
+}
+.history {
+  margin-top: 50px;
+}
+.history .historytitle {
+  border-top: 1px dotted #dddddd;
+  position: relative;
+}
+.history .historytitle p {
+  padding: 0 5px;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  top: -13px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.history .historytitle p:before {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  background: #ff9d1f;
+  left: 0;
+  top: 2px;
+}
+.history .historytitle p:after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  border-radius: 50%;
+  background: #ff9d1f;
+  right: -3px;
+  top: 10px;
+}
+.history .historytitle:after {
+  content: '';
+  display: block;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+  border-radius: 50%;
+  background: #ff9d1f;
+  right: 0px;
+  top: -3px;
+}
+.history .historyrecord {
+  padding: 35px 0;
+}
+.history .historyrecord li {
+  float: left;
+  margin-right: 24px;
+}
+.history .historyrecord li:last-child {
+  margin-right: 0;
+}
+.history .historyrecord .historylist {
+  width: 280px;
+  display: block;
+  color: #333333;
+  border: 1px solid #dddddd;
+}
+.history .historyrecord .historylist .img {
+  width: 100%;
+  height: 210px;
+}
+.history .historyrecord .historylist .contentdetail {
+  padding: 0 10px;
+}
+.history .historyrecord .historylist .titleleft {
+  line-height: 30px;
+}
+.history .historyrecord .historylist .titleleft .title span {
+  max-width: 5em;
+  overflow: hidden;
+  height: 30px;
+}
+.history .historyrecord .historylist .titleleft .title span:first-child {
+  padding-right: 5px;
+}
+.history .historyrecord .historylist .titleleft .titleright {
+  color: #ff9d1f;
+}
+.history .historyrecord .historylist .titleleft .titleright i {
+  font-size: 18px;
+  font-weight: bold;
+}
+.history .historyrecord .historylist .type {
+  color: #999999;
+  padding-bottom: 10px;
+}
+.nearrecommend {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.nearrecommend .hotmodule {
+  padding-top: 10px;
+}
+.nearrecommend .hotmodule h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.nearrecommend .hotmodule .hotarea a {
+  padding-right: 40px;
+  line-height: 30px;
+  color: #333333;
+}
+.nearrecommend .hotmodule .hotarea a:hover {
+  color: #ff9d1f;
+}

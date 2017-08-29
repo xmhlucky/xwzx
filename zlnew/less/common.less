@@ -1,0 +1,391 @@
+@import 'module';
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "SimSun";
+}
+
+table {
+    border-collapse: collapse;
+    /*让表格边框细线*/
+    border-spacing: 0;
+    /*清除边框间距*/
+}
+
+fieldset {
+    border: 0 none;
+    /*有些浏览器默认这些标签有边框，所以要清除默认边框*/
+    display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+i,
+u,
+b,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+    /*清除标签默认文本样式和加粗*/
+}
+
+input,
+textarea {
+    outline: 0 none;
+    /*去掉文本框的默认轮廓线*/
+}
+
+ol,
+ul {
+    list-style: none;
+    /*清除列表默认样式*/
+}
+
+caption,
+th {
+    text-align: left;
+    /*清除标签默认文本居中对齐*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+    /*清除标题标签的默认样式*/
+}
+
+a {
+    text-decoration: none;
+    /*大部分页面中的链接没有下划线*/
+}
+
+.clearfix:after {
+    height: 0;
+    content: " ";
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+    /*IE低版本浏览器不支持after伪类所以要加这一句*/
+}
+
+.wrap_box {
+    width: 100%;
+}
+
+.wrapper {
+    width: 1200px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.colormain {
+    color: @colormain;
+}
+
+a {
+    color: @color3;
+}
+
+//动画效果  图片
+.animatebox {
+    color: @color3;
+    .img {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            //          max-width: 100%;
+            //          max-height: 100%;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+    .title {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    &:hover {
+        img {
+            transform: scale(1.03);
+        }
+        .title {
+            color: @colormain;
+        }
+    }
+}
+
+//头部
+.header {
+    line-height: 40px;
+    border-bottom: 1px solid @colord;
+    background: @color7;
+//  box-sizing: border-box;
+    .navbar-headerleft {
+        position: relative;
+        padding-left: 25px;
+        .iconfont {
+            position: absolute;
+            font-size: 20px;
+            left: 0;
+            top: 0;
+        }
+        .change {
+            cursor: pointer;
+        }
+    }
+    .navbar-headerright {
+        font-size: @font12;
+        .iconfont{
+            font-size: 16px;
+        }        
+        div {
+            float: left;
+            padding-left: 30px;
+            color: @color9;
+            &:hover {
+                p {
+                    color: @colormain;
+                }
+            }
+            a {
+                color: @color9;
+                &:hover {
+                    color: @colormain;
+                }
+            }
+        }
+        .login {
+            max-width: 10em;
+            overflow: hidden;
+        }
+    }
+}
+
+//导航菜单栏
+.zlnavbar {
+    background: @colorf;
+    .zlnavmenu {
+        li {
+            float: left;
+            line-height: 88px;
+            padding: 0 30px;
+            &:hover {
+                background: @colormain;
+                a {
+                    color: @colorf;
+                }
+            }
+        }
+        .active {
+            border-bottom: 1px solid @colormain;
+            a {
+                color: @colormain;
+            }
+        }
+    }
+    .issue {
+        margin-left: 85px;
+        a {
+            padding: 10px;
+            background: @colormain;
+            color: @colorf;
+            border-radius: 3px;
+            margin-left: 10px;
+            margin-top: 28px;
+            &:hover {
+                background: #fe9309;
+            }
+        }
+    }
+}
+.zlnavbarfixed{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+
+//关于我们
+.aboutus {
+    padding: 25px 0;
+    background: @color7;
+    
+    .left {
+        padding-left: 45px;
+    }
+    .fr {
+        margin-right: 110px;
+        margin-top: 15px;
+        text-align: center;
+        width: 110px;
+        .imgs {
+            width: 90px;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            color: @color6;
+            margin-top: 5px;
+        }
+    }
+    dl {
+        float: left;
+        padding-left: 99px;
+        padding-bottom: 5px;
+        padding-right: 100px;
+        text-align: center;
+        dt {
+            line-height: 46px;
+            font-size: 16px;
+        }
+        dd {
+            line-height: 28px;
+            a:hover {
+                color: @colormain;
+            }
+        }
+    }
+    .line {
+        height: 82px;
+        width: 1px;
+        background: @colord;
+        float: left;
+        margin-top: 51px;
+    }
+    .notice {
+        width: 216px;
+        margin-left: 55px;
+        .title {
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 46px;
+            margin-left: 35px;
+        }
+        a {
+            line-height: 28px;
+            float: left;
+            padding-left: 36px;
+            &:hover {
+                color: @colormain;
+            }
+        }
+    }
+    .friendlink {
+        margin-top: 20px;
+        .friend {
+            font-weight: bold;
+            margin: 0 20px;
+        }
+        .link {
+            a {
+                padding: 0 15px;
+                color: @color6;
+            }
+            a:hover {
+                color: @colormain;
+            }
+        }
+    }
+}
+
+//底部
+.footer {
+    background: #888888;
+    padding: 25px 0;
+    .footer_box {
+        width: 880px;
+        margin: 0 auto;
+        p {
+            color: @colorf;
+            font-size: 12px;
+            text-align: center;
+            line-height: 20px;
+            span {
+                padding-right: 10px;
+            }
+        }
+    }
+    .contact {
+        padding-bottom: 15px;
+        a {
+            color: @colorf;
+            padding: 0 15px;
+            &:hover {
+                color: @colormain;
+            }
+        }
+        span {
+            color: @colorf;
+        }
+    }
+}
